@@ -1,9 +1,3 @@
-/*!
- * 版本：MYUI Copyright © 2019
- * 作者：QQ726662013版权所有
- * 官网：https://www.mytheme.cn
- */
-
 var MyTheme = {
 	'Browser': {
 		url: document.URL,
@@ -720,3 +714,11 @@ $(function(){
 	MyTheme.Other.Xunlei();
 	
 });
+//
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?97dae9ca138986795e5d5441648955f4";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
